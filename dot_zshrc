@@ -76,8 +76,6 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# source $(brew --prefix nvm)/nvm.sh
-
 export GOPATH=$HOME/go
 export PATH="$PATH:/Users/anatolii/flutter/flutter/bin"
 export PATH="$PATH:$GOPATH/bin"
