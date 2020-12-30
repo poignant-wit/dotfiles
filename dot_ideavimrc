@@ -3,7 +3,7 @@
 
 let mapleader = " "
 map <leader>a :action $SelectAll<CR>
-map <leader>b :action GotoDeclaration<CR>
+map <leader>b :action Git.Branches<CR>
 map <leader>c :action $Copy<CR>
 map <leader>d :action EditorDuplicate<CR>
 map <leader>e :action GotoFile<CR>
@@ -17,7 +17,6 @@ map <leader>m :action EditorScrollToCenter<CR>
 map <leader>n :action FileChooser.NewFolder<CR>
 map <leader>o :action MethodHierarchy.OverrideMethodAction<CR>
 map <leader>p :action ParameterInfo<CR>
-map <leader>q :action GuiDesigner.QuickJavadoc<CR>
 map <leader>r :action Replace<CR>
 map <leader>s :action SurroundWith<CR>
 map <leader>t :action Vcs.UpdateProject<CR>
